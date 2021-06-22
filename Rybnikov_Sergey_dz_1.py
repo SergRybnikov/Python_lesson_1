@@ -10,4 +10,3 @@ elif duration < DAY:
      print(f'{duration // HOUR} час'f' {duration % HOUR // MINUTE} мин'f' {duration % MINUTE} сек')
 elif duration > DAY:
      print(f'{duration // DAY} дн'f' {duration % DAY // HOUR} час'f' {duration % HOUR // MINUTE} мин'f' {duration % MINUTE} сек')
-# исправил ошибку
